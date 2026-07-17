@@ -1,0 +1,6 @@
+,data:tabular,data:timeseries,data:spatiotemporal,data:geospatial,data:textual,data:document,data:imagery,data:event,data:network,data:volume,data:video,row_total_papers
+size:author_large,34,21,18,13,9,5,1,3,0,0,0,59
+size:estimated_large,22,22,14,9,7,4,1,2,1,1,0,51
+size:author_small,16,5,3,2,2,1,3,0,0,2,1,29
+size:estimated_small,1,3,0,2,1,1,2,0,2,0,1,9
+col_total_papers,73,51,35,26,19,11,7,5,3,3,2,

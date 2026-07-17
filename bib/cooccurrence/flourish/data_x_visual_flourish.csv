@@ -1,0 +1,112 @@
+Data,Visualization,Number of Papers
+Tabular,Line Charts,50
+Tabular,Bar Charts,43
+Time-Series,Line Charts,43
+Tabular,Maps,30
+Time-Series,Bar Charts,28
+Spatiotemporal,Maps,26
+Time-Series,Maps,26
+Spatiotemporal,Line Charts,25
+Spatiotemporal,Bar Charts,20
+Geospatial,Maps,19
+Tabular,Scatter Plots,19
+Time-Series,Dashboards,17
+Geospatial,Line Charts,15
+Tabular,Dashboards,15
+Geospatial,Bar Charts,14
+Tabular,Area Charts,13
+Tabular,Box Plots,12
+Textual,Bar Charts,12
+Tabular,Heatmaps,9
+Tabular,Tables,9
+Textual,Maps,9
+Time-Series,Tables,9
+Document,Line Charts,7
+Textual,Word Clouds,7
+Time-Series,Pie Charts,7
+Time-Series,Scatter Plots,7
+Document,Bar Charts,6
+Geospatial,Dashboards,6
+Spatiotemporal,Heatmaps,6
+Spatiotemporal,Pie Charts,6
+Tabular,Pie Charts,6
+Textual,Line Charts,6
+Network,Maps,5
+Network,Network Diagrams,5
+Tabular,Forest Plots,5
+Tabular,Word Clouds,5
+Document,Maps,4
+Geospatial,Tables,4
+Imagery,Images,4
+Spatiotemporal,Scatter Plots,4
+Spatiotemporal,Word Clouds,4
+Tabular,Violin Plots,4
+Textual,Network Diagrams,4
+Time-Series,Heatmaps,4
+Event,Maps,3
+Geospatial,Box Plots,3
+Geospatial,Heatmaps,3
+Geospatial,Scatter Plots,3
+Spatiotemporal,Area Charts,3
+Spatiotemporal,Box Plots,3
+Spatiotemporal,Network Diagrams,3
+Tabular,Bubble Plots,3
+Tabular,Network Diagrams,3
+Document,Area Charts,2
+Document,Dashboards,2
+Document,Heatmaps,2
+Document,Scatter Plots,2
+Document,Word Clouds,2
+Event,Dashboards,2
+Event,Line Charts,2
+Geospatial,3D Visualizations,2
+Geospatial,Network Diagrams,2
+Geospatial,Pie Charts,2
+Imagery,Heatmaps,2
+Imagery,Line Charts,2
+Network,Line Charts,2
+Spatiotemporal,Bubble Plots,2
+Spatiotemporal,Dashboards,2
+Spatiotemporal,Forest Plots,2
+Spatiotemporal,Tables,2
+Tabular,Dot Plots,2
+Tabular,Histograms,2
+Tabular,Images,2
+Textual,Area Charts,2
+Textual,Bubble Plots,2
+Textual,Dashboards,2
+Textual,Pie Charts,2
+Time-Series,Area Charts,2
+Time-Series,Bubble Plots,2
+Time-Series,Network Diagrams,2
+Time-Series,Treemaps,2
+Document,Box Plots,1
+Document,Bubble Plots,1
+Document,Images,1
+Document,Pie Charts,1
+Event,Bar Charts,1
+Event,Box Plots,1
+Geospatial,Area Charts,1
+Geospatial,Bubble Plots,1
+Geospatial,Histograms,1
+Geospatial,Violin Plots,1
+Geospatial,Word Clouds,1
+Imagery,Area Charts,1
+Imagery,Bar Charts,1
+Imagery,Box Plots,1
+Imagery,Maps,1
+Imagery,Scatter Plots,1
+Imagery,Violin Plots,1
+Network,Animations,1
+Network,Bar Charts,1
+Network,Dot Plots,1
+Tabular,3D Visualizations,1
+Textual,Dot Plots,1
+Textual,Scatter Plots,1
+Time-Series,3D Visualizations,1
+Time-Series,Box Plots,1
+Time-Series,Forest Plots,1
+Time-Series,Word Clouds,1
+Volume,3D Visualizations,1
+Volume,Animations,1
+Volume,Dashboards,1

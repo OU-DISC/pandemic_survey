@@ -1,0 +1,17 @@
+,engagement:yes,engagement:no,row_total_papers
+user:domain_experts,58,24,82
+user:policymakers,49,14,63
+user:public,44,10,54
+user:public_health,21,6,27
+user:epidemiologists,16,3,19
+user:data_scientists,15,1,16
+user:healthcare_experts,7,4,11
+user:researchers,7,4,11
+user:educators,2,4,6
+user:sociological,2,2,4
+user:students,1,3,4
+user:artists,1,0,1
+user:business_analysts,0,1,1
+user:economists,1,0,1
+user:musicians,1,0,1
+col_total_papers,105,46,

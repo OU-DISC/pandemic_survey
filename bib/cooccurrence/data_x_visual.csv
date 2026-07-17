@@ -1,0 +1,12 @@
+,visual:line,visual:bar,visual:map,visual:scatter,visual:dashboard,visual:heatmap,visual:area,visual:network,visual:boxplot,visual:pie,visual:table,visual:wordcloud,visual:bubble,visual:forest,visual:image,visual:violin,visual:3d,visual:dot,visual:histogram,visual:animation,visual:treemap,row_total_papers
+data:tabular,50,43,30,19,15,9,13,3,12,6,9,5,3,5,2,4,1,2,2,0,0,73
+data:timeseries,43,28,26,7,17,4,2,2,1,7,9,1,2,1,0,0,1,0,0,0,2,56
+data:spatiotemporal,25,20,26,4,2,6,3,3,3,6,2,4,2,2,0,0,0,0,0,0,0,35
+data:geospatial,15,14,19,3,6,3,1,2,3,2,4,1,1,0,0,1,2,0,1,0,0,28
+data:textual,6,12,9,1,2,0,2,4,0,2,0,7,2,0,0,0,0,1,0,0,0,22
+data:network,2,1,5,0,0,0,0,5,0,0,0,0,0,0,0,0,0,1,0,1,0,12
+data:document,7,6,4,2,2,2,2,0,1,1,0,2,1,0,1,0,0,0,0,0,0,9
+data:imagery,2,1,1,1,0,2,1,0,1,0,0,0,0,0,4,1,0,0,0,0,0,6
+data:event,2,1,3,0,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,5
+data:volume,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,3
+col_total_papers,95,80,71,25,24,21,16,16,15,15,14,10,6,6,5,5,4,3,3,2,2,

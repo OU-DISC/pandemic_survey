@@ -31,8 +31,122 @@ Papers were collected around pandemic visualization and related themes, includin
 </ul>
 
 <p>
-Classifications from Survey I–III cover data types, user groups, visual representations, interaction/tools, visualization levels, and tasks. Use the keyword clouds and selectors above to filter and compare papers along these dimensions.
+In SurVis these appear as keyword tags such as <code>pandemic</code>, <code>healthcare</code>, <code>epidemiological_modeling</code>, <code>emergency_response</code>, and <code>visualization</code>.
 </p>
+
+<h1>Coding scheme</h1>
+
+<p>
+Surveys I–III used a shared coding scheme to classify papers. The codes below are reflected in the SurVis keyword tags (hover a tag for a short tooltip). Survey II especially deepened codes for data scale, algorithms, interaction, public engagement, and tools/platforms.
+</p>
+
+<h2>Data size (Survey II) — tag prefix <code>size:</code></h2>
+<p>
+Supplement to data-type classification; evaluates the scale of data visualized.
+</p>
+<ul>
+    <li><b>[0]</b> <code>size:author_small</code> — author mentioned actual size as small</li>
+    <li><b>[1]</b> <code>size:author_large</code> — author mentioned size as above small / briefly as big data</li>
+    <li><b>[2]</b> <code>size:estimated_small</code> — we observed &amp; estimated as small (e.g. one-page table)</li>
+    <li><b>[3]</b> <code>size:estimated_large</code> — we observed &amp; estimated as above small size</li>
+</ul>
+
+<h2>Advanced algorithms (Survey II) — tag prefix <code>advanced_algorithms:</code></h2>
+<p>
+Whether advanced algorithms are employed to support data processing and analysis.
+</p>
+<ul>
+    <li><b>[0]</b> <code>advanced_algorithms:no</code> — not using advanced algorithms</li>
+    <li><b>[1]</b> <code>advanced_algorithms:yes</code> — using advanced algorithms</li>
+</ul>
+
+<h2>Level of interaction (Survey II) — tag prefix <code>interaction:</code></h2>
+<p>
+Depth of user–data interaction / visual analytical capability of the system.
+</p>
+<ul>
+    <li><code>interaction:basic</code> — Basic</li>
+    <li><code>interaction:static</code> — Static Vis</li>
+    <li><code>interaction:medium</code> — Medium</li>
+    <li><code>interaction:immersive</code> — Immersive</li>
+    <li><code>interaction:advanced</code> — Advanced</li>
+</ul>
+
+<h2>Public engagement (Survey II) — tag prefix <code>engagement:</code></h2>
+<p>
+Whether the visualization is intended for dissemination beyond specialized audiences.
+</p>
+<ul>
+    <li><b>[0]</b> <code>engagement:no</code> — no need for dissemination</li>
+    <li><b>[1]</b> <code>engagement:yes</code> — need for dissemination / public engagement</li>
+</ul>
+
+<h2>Tools and platforms (Survey II) — tag prefix <code>tool:</code></h2>
+<p>
+Toolkit/software used and deployment format.
+</p>
+<ul>
+    <li><code>tool:toolkits</code> — computational toolkits (e.g. Python, R)</li>
+    <li><code>tool:web_app</code> — web-based application</li>
+    <li><code>tool:software</code> — desktop / software tools (e.g. Tableau)</li>
+    <li><code>tool:mobile_app</code> — mobile application</li>
+    <li><code>tool:immersive_app</code> — immersive / XR application</li>
+</ul>
+
+<h2>Data type — tag prefix <code>data:</code></h2>
+<p>
+Primary input data characterized in the paper, including:
+</p>
+<ul>
+    <li><code>data:tabular</code> — tabular data</li>
+    <li><code>data:timeseries</code> — time-series data</li>
+    <li><code>data:geospatial</code> — geospatial data</li>
+    <li><code>data:spatiotemporal</code> — spatiotemporal data</li>
+    <li><code>data:textual</code> / <code>data:document</code> — text or document corpora</li>
+    <li><code>data:network</code> — tree, set, graph/network</li>
+    <li><code>data:event</code> — event data</li>
+    <li><code>data:imagery</code> — 2D scalar field / imagery</li>
+    <li><code>data:volume</code> — 3D+ scalar field / volume</li>
+    <li><code>data:video</code> — video data</li>
+</ul>
+
+<h2>User groups — tag prefix <code>user:</code></h2>
+<p>
+Intended or primary users of the visualization, including:
+</p>
+<ul>
+    <li><code>user:public</code>, <code>user:policymakers</code>, <code>user:domain_experts</code></li>
+    <li><code>user:public_health</code>, <code>user:healthcare_experts</code>, <code>user:epidemiologists</code></li>
+    <li><code>user:data_scientists</code>, <code>user:researchers</code>, and other specialist groups when coded</li>
+</ul>
+
+<h2>Visual representations — tag prefix <code>visual:</code></h2>
+<p>
+Chart / view types used in the paper (e.g. <code>visual:line</code>, <code>visual:bar</code>, <code>visual:map</code>, <code>visual:dashboard</code>, <code>visual:heatmap</code>, <code>visual:scatter</code>, <code>visual:network</code>, <code>visual:wordcloud</code>).
+</p>
+
+<h2>Visualization levels (Survey I) — tag prefix <code>level:</code></h2>
+<ul>
+    <li><code>level:disseminative</code> — Disseminative visualization (communicate known facts)</li>
+    <li><code>level:observational</code> — Observational visualization (explore and confirm patterns)</li>
+    <li><code>level:analytical</code> — Analytical visualization (interactive analysis)</li>
+    <li><code>level:model_developmental</code> — Model-developmental visualization (support modeling)</li>
+</ul>
+
+<h2>Tasks — tag prefix <code>task:</code></h2>
+<ul>
+    <li><code>task:visualize</code> — Visualize</li>
+    <li><code>task:analyze</code> — Analyze</li>
+    <li><code>task:model</code> — Model</li>
+    <li><code>task:understand</code> — Understand</li>
+    <li><code>task:other</code> — Others</li>
+</ul>
+
+<h2>Other Survey II flags</h2>
+<ul>
+    <li><code>pandemic_data</code> — uses pandemic-related data</li>
+    <li><code>domain_specific</code> — domain-specific application (Domain = 1)</li>
+</ul>
 
 <h1>How to use this browser</h1>
 
@@ -41,7 +155,80 @@ Classifications from Survey I–III cover data types, user groups, visual repres
     <li>Combine selectors to refine the result set; sparklines indicate agreement with the current filters.</li>
     <li>Open a paper entry for metadata, abstract (when available), DOI/URL, and PDF when provided.</li>
     <li>Use the timeline to explore the literature over years.</li>
+    <li>Hover authorized tags to see coding-scheme definitions.</li>
 </ul>
+
+<h1>Example analysis figure</h1>
+
+<p>
+Co-occurrence of visual representations across classified papers
+(<a href="https://public.flourish.studio/visualisation/25221775/" target="_blank" rel="noopener">interactive chord diagram on Flourish</a>, by Aseel Basheer):
+</p>
+
+<!-- Flourish embed: https://public.flourish.studio/visualisation/25221775/ -->
+<div class="flourish-embed flourish-chart" data-src="visualisation/25221775" data-width="100%">
+  <script src="https://public.flourish.studio/resources/embed.js"></script>
+</div>
+
+<p style="margin-top:12px; font-size:12px; color:#555;">
+  Open full screen:
+  <a href="https://public.flourish.studio/visualisation/25221775/" target="_blank" rel="noopener">public.flourish.studio/visualisation/25221775</a>
+  · Local copies for offline/paper use:
+  <a href="data/figures/visual_x_visual_chord.png" target="_blank">PNG</a>,
+  <a href="data/figures/visual_x_visual_chord.svg" target="_blank">SVG</a>
+</p>
+
+<h2>Heatmap of co-occurring data types and visualization techniques across the surveyed papers</h2>
+<p>
+Which visual representations appear with which data types in the classified literature
+(<a href="https://public.flourish.studio/visualisation/29720884/" target="_blank" rel="noopener">interactive heatmap on Flourish</a>):
+</p>
+<div class="flourish-embed flourish-chart" data-src="visualisation/29720884" data-width="100%">
+  <script src="https://public.flourish.studio/resources/embed.js"></script>
+</div>
+<p style="margin-top:12px; font-size:12px; color:#555;">
+  Open full screen:
+  <a href="https://public.flourish.studio/visualisation/29720884/" target="_blank" rel="noopener">public.flourish.studio/visualisation/29720884</a>
+</p>
+
+<h2>Intended user groups and public-engagement need</h2>
+<p>
+Stacked view of intended user groups versus whether visualizations are coded for public dissemination
+(<a href="https://public.flourish.studio/visualisation/29721062/" target="_blank" rel="noopener">interactive chart on Flourish</a>):
+</p>
+<div class="flourish-embed flourish-chart" data-src="visualisation/29721062" data-width="100%">
+  <script src="https://public.flourish.studio/resources/embed.js"></script>
+</div>
+<p style="margin-top:12px; font-size:12px; color:#555;">
+  Open full screen:
+  <a href="https://public.flourish.studio/visualisation/29721062/" target="_blank" rel="noopener">public.flourish.studio/visualisation/29721062</a>
+</p>
+
+<h2>Co-occurrence of visual analytics interaction level and advanced-algorithm use</h2>
+<p>
+Interaction level versus whether papers use advanced algorithms for data processing and analysis
+(<a href="https://public.flourish.studio/visualisation/29721112/" target="_blank" rel="noopener">interactive chart on Flourish</a>):
+</p>
+<div class="flourish-embed flourish-chart" data-src="visualisation/29721112" data-width="100%">
+  <script src="https://public.flourish.studio/resources/embed.js"></script>
+</div>
+<p style="margin-top:12px; font-size:12px; color:#555;">
+  Open full screen:
+  <a href="https://public.flourish.studio/visualisation/29721112/" target="_blank" rel="noopener">public.flourish.studio/visualisation/29721112</a>
+</p>
+
+<h2>Temporal co-occurrence of the keywords</h2>
+<p>
+Yearly paper counts for major SurVis keywords
+(<a href="https://public.flourish.studio/visualisation/29721166/" target="_blank" rel="noopener">interactive heatmap on Flourish</a>):
+</p>
+<div class="flourish-embed flourish-chart" data-src="visualisation/29721166" data-width="100%">
+  <script src="https://public.flourish.studio/resources/embed.js"></script>
+</div>
+<p style="margin-top:12px; font-size:12px; color:#555;">
+  Open full screen:
+  <a href="https://public.flourish.studio/visualisation/29721166/" target="_blank" rel="noopener">public.flourish.studio/visualisation/29721166</a>
+</p>
 
 <h1>Related workshop</h1>
 

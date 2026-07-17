@@ -1,0 +1,10 @@
+,task:model,task:visualize,task:analyze,task:understand,row_total_papers
+data:timeseries,5,7,2,0,14
+data:network,4,3,0,0,7
+data:tabular,3,4,0,0,7
+data:geospatial,2,1,2,0,5
+data:spatiotemporal,0,2,2,0,4
+data:event,0,2,0,0,2
+data:imagery,1,0,1,0,2
+data:textual,0,0,0,2,2
+col_total_papers,13,12,5,2,
