@@ -54,6 +54,20 @@ const tagUtil = (function () {
         simplifyTag: function (tag) {
             return tag.toLowerCase().replace(/\W/g, '');
         },
+        /** CSS class for keyword category coloring (data:, user:, visual:, …). */
+        getCategoryClass: function (tag) {
+            if (!tag) {
+                return 'tag_cat_theme';
+            }
+            var colon = tag.indexOf(':');
+            if (colon > 0) {
+                var cat = tag.substring(0, colon).toLowerCase().replace(/[^a-z0-9_]/g, '_');
+                if (cat) {
+                    return 'tag_cat_' + cat;
+                }
+            }
+            return 'tag_cat_theme';
+        },
         getFrequencyClass: function (frequency) {
             var frequencyClass = 'freq1';
             if (frequency >= 2) {

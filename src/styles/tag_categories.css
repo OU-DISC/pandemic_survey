@@ -1,0 +1,156 @@
+/* Keyword category colors — distinct from selector-slot colors in selector.css */
+
+:root {
+    --tag-cat-data: #1f6f8b;
+    --tag-cat-size: #0e8a6e;
+    --tag-cat-visual: #c45c26;
+    --tag-cat-user: #6b4c9a;
+    --tag-cat-interaction: #b83b5e;
+    --tag-cat-tool: #2d8a4e;
+    --tag-cat-level: #3d5a80;
+    --tag-cat-task: #8b6914;
+    --tag-cat-advanced_algorithms: #5a6a7a;
+    --tag-cat-engagement: #c47a2c;
+    --tag-cat-theme: #2c3e50;
+    --tag-cat-other: #6c757d;
+}
+
+.tag_cloud .tag_category .label.tag_cat_data,
+.tag.tag_cat_data,
+.tag.tag_cat_data .tag_category {
+    color: var(--tag-cat-data);
+}
+
+.tag_cloud .tag_category .label.tag_cat_size,
+.tag.tag_cat_size,
+.tag.tag_cat_size .tag_category {
+    color: var(--tag-cat-size);
+}
+
+.tag_cloud .tag_category .label.tag_cat_visual,
+.tag.tag_cat_visual,
+.tag.tag_cat_visual .tag_category {
+    color: var(--tag-cat-visual);
+}
+
+.tag_cloud .tag_category .label.tag_cat_user,
+.tag.tag_cat_user,
+.tag.tag_cat_user .tag_category {
+    color: var(--tag-cat-user);
+}
+
+.tag_cloud .tag_category .label.tag_cat_interaction,
+.tag.tag_cat_interaction,
+.tag.tag_cat_interaction .tag_category {
+    color: var(--tag-cat-interaction);
+}
+
+.tag_cloud .tag_category .label.tag_cat_tool,
+.tag.tag_cat_tool,
+.tag.tag_cat_tool .tag_category {
+    color: var(--tag-cat-tool);
+}
+
+.tag_cloud .tag_category .label.tag_cat_level,
+.tag.tag_cat_level,
+.tag.tag_cat_level .tag_category {
+    color: var(--tag-cat-level);
+}
+
+.tag_cloud .tag_category .label.tag_cat_task,
+.tag.tag_cat_task,
+.tag.tag_cat_task .tag_category {
+    color: var(--tag-cat-task);
+}
+
+.tag_cloud .tag_category .label.tag_cat_advanced_algorithms,
+.tag.tag_cat_advanced_algorithms,
+.tag.tag_cat_advanced_algorithms .tag_category {
+    color: var(--tag-cat-advanced_algorithms);
+}
+
+.tag_cloud .tag_category .label.tag_cat_engagement,
+.tag.tag_cat_engagement,
+.tag.tag_cat_engagement .tag_category {
+    color: var(--tag-cat-engagement);
+}
+
+.tag_cloud .tag_category .label.tag_cat_theme,
+.tag.tag_cat_theme {
+    color: var(--tag-cat-theme);
+}
+
+.tag_cloud .tag_category .label.tag_cat_other,
+.tag.tag_cat_other {
+    color: var(--tag-cat-other);
+}
+
+/* Category row labels in the keyword cloud */
+.tag_cloud .tag_category .label {
+    font-weight: 700;
+}
+
+/* Frequency counts stay muted so category hue stays on the label text */
+.tag_cloud .tag[class*="tag_cat_"] .tag_frequency {
+    color: #888;
+    opacity: 0.85;
+}
+
+/* Active filter still uses gray background; keep category text color */
+.tag.active[class*="tag_cat_"] {
+    color: inherit;
+}
+
+/* Compact legend above the Keywords cloud */
+.keyword-category-legend {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px 10px;
+    margin: 4px 0 10px;
+    padding: 6px 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #fafafa;
+    font-size: 9pt;
+    line-height: 1.2;
+    clear: both;
+}
+
+.keyword-category-legend .legend-title {
+    font-weight: 700;
+    color: #555;
+    margin-right: 4px;
+}
+
+.keyword-category-legend .legend-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    white-space: nowrap;
+}
+
+.keyword-category-legend .swatch {
+    display: inline-block;
+    width: 0.7em;
+    height: 0.7em;
+    border-radius: 2px;
+    background: currentColor;
+    flex-shrink: 0;
+}
+
+.keyword-category-legend .legend-chip.tag_cat_theme { color: var(--tag-cat-theme); }
+.keyword-category-legend .legend-chip.tag_cat_data { color: var(--tag-cat-data); }
+.keyword-category-legend .legend-chip.tag_cat_size { color: var(--tag-cat-size); }
+.keyword-category-legend .legend-chip.tag_cat_visual { color: var(--tag-cat-visual); }
+.keyword-category-legend .legend-chip.tag_cat_user { color: var(--tag-cat-user); }
+.keyword-category-legend .legend-chip.tag_cat_interaction { color: var(--tag-cat-interaction); }
+.keyword-category-legend .legend-chip.tag_cat_tool { color: var(--tag-cat-tool); }
+.keyword-category-legend .legend-chip.tag_cat_level { color: var(--tag-cat-level); }
+.keyword-category-legend .legend-chip.tag_cat_task { color: var(--tag-cat-task); }
+.keyword-category-legend .legend-chip.tag_cat_advanced_algorithms { color: var(--tag-cat-advanced_algorithms); }
+.keyword-category-legend .legend-chip.tag_cat_engagement { color: var(--tag-cat-engagement); }
+
+.keyword-category-legend .legend-label {
+    font-weight: 600;
+}

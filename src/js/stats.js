@@ -8,14 +8,23 @@ const stats = (function () {
                 statsDiv.tooltipster('destroy');
             }
 
-            var s = bib.nEntries + " publications";
-            if (bib.nEntries != Object.keys(bib.entries).length) {
-                s = bib.nEntries + ' of ' + Object.keys(bib.entries).length + ' publications';
-            } else if (bib.nEntries == 0) {
-                s = "no publications";
-            } else if (bib.nEntries == 1) {
-                s = "1 publication";
+            var total = Object.keys(bib.entries).length;
+            var n = bib.nEntries;
+            var s;
+            if (n === 0) {
+                s = 'Showing 0 of ' + total + ' publications';
+            } else if (n === total) {
+                s = 'Showing all ' + total + ' publications';
+            } else if (n === 1) {
+                s = 'Showing 1 of ' + total + ' publications';
+            } else {
+                s = 'Showing ' + n + ' of ' + total + ' publications';
             }
+            statsDiv.append($('<span>', {
+                class: 'stats-count',
+                text: s
+            }));
+
             var similarities = [];
             for (var i = 0; i < selectors.nSelectors; i++) {
                 similarities.push(0)
@@ -27,17 +36,13 @@ const stats = (function () {
             });
             $.each(similarities, function (i, similarity) {
                 if (similarity) {
-                    similarities[i] = similarity / bib.nEntries;
+                    similarities[i] = similarity / Math.max(bib.nEntries, 1);
                 }
             });
             var sparklineDiv = $("<div>", {
                 class: "vis sparkline"
             }).appendTo(statsDiv);
             selectors.vis(sparklineDiv, similarities);
-            statsDiv.append($('<span>', {
-                text: s
-            }));
-
             var tooltipDiv = $('<div>');
             $('<h3><span class="label">literature collection: </span>' + s + '</h3>').appendTo(tooltipDiv);
             var totalSimilarity = selectors.computeTotalSimilarity(similarities);

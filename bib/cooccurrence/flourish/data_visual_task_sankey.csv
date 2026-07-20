@@ -1,0 +1,37 @@
+Source,Target,Number of Papers
+Time-Series,Line Charts,11
+Time-Series,Bar Charts,5
+Tabular,Line Charts,5
+Tabular,Maps,5
+Time-Series,Maps,4
+Geospatial,Maps,4
+Spatiotemporal,Maps,4
+Tabular,Dashboards,3
+Time-Series,Dashboards,3
+Network,Maps,3
+Tabular,Bar Charts,3
+Textual,Maps,2
+Network,Line Charts,2
+Geospatial,Bar Charts,2
+Geospatial,Heatmaps,2
+Spatiotemporal,Heatmaps,2
+Network,Network Diagrams,2
+Event,Line Charts,2
+Event,Maps,2
+Spatiotemporal,Line Charts,2
+Imagery,Maps,1
+Geospatial,Dashboards,1
+Geospatial,Line Charts,1
+Line Charts,Visualize,8
+Line Charts,Model,7
+Maps,Model,6
+Maps,Visualize,6
+Bar Charts,Model,6
+Line Charts,Analyze,2
+Maps,Understand,2
+Dashboards,Visualize,2
+Heatmaps,Analyze,2
+Maps,Analyze,2
+Network Diagrams,Model,2
+Bar Charts,Visualize,2
+Dashboards,Model,1

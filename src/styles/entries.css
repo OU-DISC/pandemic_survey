@@ -77,6 +77,10 @@
 }
 
 .entry .tags .tag {
+    /* Category hue comes from tag_categories.css (.tag_cat_*) */
+}
+
+.entry .tags .tag:not([class*="tag_cat_"]) {
     color: #000000;
 }
 

@@ -34,3 +34,78 @@ h1 {
     font-size: 14pt;
     border-bottom: var(--strongBorder);
 }
+
+.tag-legend {
+    list-style: none;
+    padding: 0;
+    margin: 0.75em 0 1.25em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35em 1.1em;
+}
+
+.tag-legend li {
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
+    font-size: 11pt;
+    line-height: 1.35;
+    max-width: 100%;
+}
+
+.tag-legend .swatch {
+    display: inline-block;
+    width: 0.85em;
+    height: 0.85em;
+    border-radius: 2px;
+    flex-shrink: 0;
+    background: currentColor;
+}
+
+.tag-legend .swatch.tag_cat_theme { color: var(--tag-cat-theme); }
+.tag-legend .swatch.tag_cat_data { color: var(--tag-cat-data); }
+.tag-legend .swatch.tag_cat_size { color: var(--tag-cat-size); }
+.tag-legend .swatch.tag_cat_visual { color: var(--tag-cat-visual); }
+.tag-legend .swatch.tag_cat_user { color: var(--tag-cat-user); }
+.tag-legend .swatch.tag_cat_interaction { color: var(--tag-cat-interaction); }
+.tag-legend .swatch.tag_cat_tool { color: var(--tag-cat-tool); }
+.tag-legend .swatch.tag_cat_level { color: var(--tag-cat-level); }
+.tag-legend .swatch.tag_cat_task { color: var(--tag-cat-task); }
+.tag-legend .swatch.tag_cat_advanced_algorithms { color: var(--tag-cat-advanced_algorithms); }
+.tag-legend .swatch.tag_cat_engagement { color: var(--tag-cat-engagement); }
+
+.tag-legend .tag_cat_theme { color: var(--tag-cat-theme); font-weight: 600; }
+.tag-legend .tag_cat_data { color: var(--tag-cat-data); font-weight: 600; }
+.tag-legend .tag_cat_size { color: var(--tag-cat-size); font-weight: 600; }
+.tag-legend .tag_cat_visual { color: var(--tag-cat-visual); font-weight: 600; }
+.tag-legend .tag_cat_user { color: var(--tag-cat-user); font-weight: 600; }
+.tag-legend .tag_cat_interaction { color: var(--tag-cat-interaction); font-weight: 600; }
+.tag-legend .tag_cat_tool { color: var(--tag-cat-tool); font-weight: 600; }
+.tag-legend .tag_cat_level { color: var(--tag-cat-level); font-weight: 600; }
+.tag-legend .tag_cat_task { color: var(--tag-cat-task); font-weight: 600; }
+.tag-legend .tag_cat_advanced_algorithms { color: var(--tag-cat-advanced_algorithms); font-weight: 600; }
+.tag-legend .tag_cat_engagement { color: var(--tag-cat-engagement); font-weight: 600; }
+
+.try-this {
+    margin: 0.5em 0 1em;
+    padding-left: 1.4em;
+}
+
+.try-this li {
+    margin-bottom: 0.85em;
+    line-height: 1.45;
+}
+
+.try-this code {
+    background: #f3f3f3;
+    padding: 0.1em 0.35em;
+    border-radius: 3px;
+    font-size: 0.95em;
+}
+
+.try-this .tag_cat_visual { color: var(--tag-cat-visual); font-weight: 600; }
+.try-this .tag_cat_engagement { color: var(--tag-cat-engagement); font-weight: 600; }
+.try-this .tag_cat_user { color: var(--tag-cat-user); font-weight: 600; }
+.try-this .tag_cat_level { color: var(--tag-cat-level); font-weight: 600; }
+.try-this .tag_cat_tool { color: var(--tag-cat-tool); font-weight: 600; }
+

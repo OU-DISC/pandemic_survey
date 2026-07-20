@@ -1,0 +1,82 @@
+Group,Category,Code,Number of Papers
+Audience & purpose,Engagement,yes,105
+Audience & purpose,Engagement,no,46
+Audience & purpose,Task,visualize,39
+Audience & purpose,Task,analyze,29
+Audience & purpose,Task,model,21
+Audience & purpose,Task,understand,8
+Audience & purpose,Task,other,2
+Audience & purpose,Users,domain experts,120
+Audience & purpose,Users,policymakers,80
+Audience & purpose,Users,public,78
+Audience & purpose,Users,public health,39
+Audience & purpose,Users,researchers,32
+Audience & purpose,Users,epidemiologists,28
+Audience & purpose,Users,data scientists,22
+Audience & purpose,Users,healthcare experts,15
+Audience & purpose,Users,educators,6
+Audience & purpose,Users,sociological,4
+Audience & purpose,Users,students,4
+Audience & purpose,Users,artists,1
+Audience & purpose,Users,business analysts,1
+Audience & purpose,Users,economists,1
+Audience & purpose,Users,musicians,1
+Audience & purpose,Visualization level,analytical,62
+Audience & purpose,Visualization level,observational,29
+Audience & purpose,Visualization level,model developmental,27
+Audience & purpose,Visualization level,disseminative,19
+Data,Data size,author large,60
+Data,Data size,estimated large,53
+Data,Data size,author small,29
+Data,Data size,estimated small,9
+Data,Data type,tabular,73
+Data,Data type,timeseries,57
+Data,Data type,spatiotemporal,35
+Data,Data type,geospatial,29
+Data,Data type,textual,23
+Data,Data type,network,12
+Data,Data type,document,11
+Data,Data type,imagery,9
+Data,Data type,event,5
+Data,Data type,volume,3
+Data,Data type,video,2
+Themes & scope,Other flags,pandemic data,90
+Themes & scope,Other flags,domain specific,23
+Themes & scope,Search themes,visualization,336
+Themes & scope,Search themes,pandemic,287
+Themes & scope,Search themes,healthcare,101
+Themes & scope,Search themes,epidemiological modeling,49
+Themes & scope,Search themes,emergency response,45
+Visual design,Advanced algorithms,yes,109
+Visual design,Advanced algorithms,no,42
+Visual design,Interaction,basic,70
+Visual design,Interaction,medium,44
+Visual design,Interaction,advanced,28
+Visual design,Interaction,static,5
+Visual design,Interaction,immersive,1
+Visual design,Tools,toolkits,109
+Visual design,Tools,web app,52
+Visual design,Tools,software,27
+Visual design,Tools,immersive app,2
+Visual design,Tools,mobile app,2
+Visual design,Visual representations,map,127
+Visual design,Visual representations,line,125
+Visual design,Visual representations,bar,85
+Visual design,Visual representations,network,28
+Visual design,Visual representations,dashboard,26
+Visual design,Visual representations,scatter,25
+Visual design,Visual representations,heatmap,23
+Visual design,Visual representations,area,17
+Visual design,Visual representations,boxplot,15
+Visual design,Visual representations,pie,15
+Visual design,Visual representations,table,14
+Visual design,Visual representations,wordcloud,10
+Visual design,Visual representations,bubble,6
+Visual design,Visual representations,forest,6
+Visual design,Visual representations,image,5
+Visual design,Visual representations,violin,5
+Visual design,Visual representations,3d,4
+Visual design,Visual representations,dot,3
+Visual design,Visual representations,histogram,3
+Visual design,Visual representations,animation,2
+Visual design,Visual representations,treemap,2

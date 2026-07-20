@@ -2,6 +2,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link rel="stylesheet" type="text/css" href="styles/about.css"/>
+    <link rel="stylesheet" type="text/css" href="styles/tag_categories.css"/>
 </head>
 <body>
 
@@ -34,11 +35,36 @@ Papers were collected around pandemic visualization and related themes, includin
 In SurVis these appear as keyword tags such as <code>pandemic</code>, <code>healthcare</code>, <code>epidemiological_modeling</code>, <code>emergency_response</code>, and <code>visualization</code>.
 </p>
 
+
+<h1>Related workshop</h1>
+
+<p>
+IEEE VIS Workshop on Visualization for Pandemic and Emergency Responses 2023 (Vis4PandEmRes).
+</p>
+
+
 <h1>Coding scheme</h1>
 
 <p>
 Surveys I–III used a shared coding scheme to classify papers. The codes below are reflected in the SurVis keyword tags (hover a tag for a short tooltip). Survey II especially deepened codes for data scale, algorithms, interaction, public engagement, and tools/platforms.
 </p>
+
+<p>
+In the keyword cloud and paper entries, tags are colored by category (separate from the selector-slot colors used for active filters):
+</p>
+<ul class="tag-legend">
+    <li><span class="swatch tag_cat_theme"></span> <span class="tag_cat_theme">themes</span> — search themes without a prefix (e.g. pandemic, visualization)</li>
+    <li><span class="swatch tag_cat_data"></span> <span class="tag_cat_data">data:</span> — input data type</li>
+    <li><span class="swatch tag_cat_size"></span> <span class="tag_cat_size">size:</span> — data size (Survey II)</li>
+    <li><span class="swatch tag_cat_visual"></span> <span class="tag_cat_visual">visual:</span> — visual representation</li>
+    <li><span class="swatch tag_cat_user"></span> <span class="tag_cat_user">user:</span> — intended user group</li>
+    <li><span class="swatch tag_cat_interaction"></span> <span class="tag_cat_interaction">interaction:</span> — interaction level</li>
+    <li><span class="swatch tag_cat_tool"></span> <span class="tag_cat_tool">tool:</span> — tools and platforms</li>
+    <li><span class="swatch tag_cat_level"></span> <span class="tag_cat_level">level:</span> — visualization level</li>
+    <li><span class="swatch tag_cat_task"></span> <span class="tag_cat_task">task:</span> — high-level task</li>
+    <li><span class="swatch tag_cat_advanced_algorithms"></span> <span class="tag_cat_advanced_algorithms">advanced_algorithms:</span> — advanced algorithms</li>
+    <li><span class="swatch tag_cat_engagement"></span> <span class="tag_cat_engagement">engagement:</span> — public engagement need</li>
+</ul>
 
 <h2>Data size (Survey II) — tag prefix <code>size:</code></h2>
 <p>
@@ -152,16 +178,57 @@ Chart / view types used in the paper (e.g. <code>visual:line</code>, <code>visua
 
 <ul>
     <li>Click tags in the keyword, author, journal, or conference/workshop clouds to filter the collection.</li>
+    <li>Keyword tags are colored by coding category (see the legend under Coding scheme); selector-slot colors are separate and mark active filters.</li>
     <li>Combine selectors to refine the result set; sparklines indicate agreement with the current filters.</li>
     <li>Open a paper entry for metadata, abstract (when available), DOI/URL, and PDF when provided.</li>
     <li>Use the timeline to explore the literature over years.</li>
     <li>Hover authorized tags to see coding-scheme definitions.</li>
 </ul>
 
+<h2>Try this</h2>
+<p>
+A few short walks to see how selectors and sparklines work (open the main browser, then follow the steps):
+</p>
+<ol class="try-this">
+    <li>
+        <b>Maps for public engagement.</b>
+        In the keyword cloud, click <code>map</code> under <span class="tag_cat_visual">visual:</span>,
+        then click <code>yes</code> under <span class="tag_cat_engagement">engagement:</span>.
+        Click the lock icon on the engagement chip (or Ctrl+click when selecting) so only dissemination-oriented papers remain.
+        Scan the sparklines and result list for map-heavy public-facing work.
+    </li>
+    <li>
+        <b>Who uses dashboards?</b>
+        Clear selectors, then click <code>dashboard</code> (<span class="tag_cat_visual">visual:</span>).
+        Hover other tags (e.g. under <span class="tag_cat_user">user:</span>) and compare sparkline heights — taller bars mean stronger co-occurrence with dashboards.
+    </li>
+    <li>
+        <b>Analytical tools over time.</b>
+        Select <code>analytical</code> (<span class="tag_cat_level">level:</span>) and <code>toolkits</code> (<span class="tag_cat_tool">tool:</span>).
+        Check the timeline: colored bars show how that combination is distributed across years.
+    </li>
+</ol>
+<p>
+Tip: use <b>clear</b> next to Selectors (or Esc) to reset and try another walk.
+</p>
+
 <h1>Example analysis figure</h1>
 
+<h2>Distribution of the survey classification codes</h2>
 <p>
-Co-occurrence of visual representations across classified papers
+Tile size encodes how many papers carry each code within its coding category
+(<a href="https://public.flourish.studio/visualisation/29740350/" target="_blank" rel="noopener">interactive treemap on Flourish</a>):
+</p>
+<div class="flourish-embed flourish-chart" data-src="visualisation/29740350" data-width="100%">
+  <script src="https://public.flourish.studio/resources/embed.js"></script>
+</div>
+<p style="margin-top:12px; font-size:12px; color:#555;">
+  Open full screen:
+  <a href="https://public.flourish.studio/visualisation/29740350/" target="_blank" rel="noopener">public.flourish.studio/visualisation/29740350</a>
+</p>
+
+<h2>Co-occurrence of visual representations across classified papers</h2>
+<p>
 (<a href="https://public.flourish.studio/visualisation/25221775/" target="_blank" rel="noopener">interactive chord diagram on Flourish</a>, by Aseel Basheer):
 </p>
 
@@ -230,10 +297,16 @@ Yearly paper counts for major SurVis keywords
   <a href="https://public.flourish.studio/visualisation/29721166/" target="_blank" rel="noopener">public.flourish.studio/visualisation/29721166</a>
 </p>
 
-<h1>Related workshop</h1>
-
+<h2>How data types flow through visual representations into visualization levels</h2>
 <p>
-IEEE VIS Workshop on Visualization for Pandemic and Emergency Responses 2023 (Vis4PandEmRes).
+(<a href="https://public.flourish.studio/visualisation/29740151/" target="_blank" rel="noopener">interactive Sankey on Flourish</a>):
+</p>
+<div class="flourish-embed flourish-chart" data-src="visualisation/29740151" data-width="100%">
+  <script src="https://public.flourish.studio/resources/embed.js"></script>
+</div>
+<p style="margin-top:12px; font-size:12px; color:#555;">
+  Open full screen:
+  <a href="https://public.flourish.studio/visualisation/29740151/" target="_blank" rel="noopener">public.flourish.studio/visualisation/29740151</a>
 </p>
 
 </body>

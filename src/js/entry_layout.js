@@ -337,8 +337,9 @@ const entryLayout = (function () {
                 class: "tag_list"
             });
             $.each(bib.parsedEntries[id]['keywords'], function (i, tag) {
+                var categoryClass = tagUtil.getCategoryClass(tag);
                 var tagDiv = $("<div>", {
-                    class: "tag",
+                    class: "tag " + categoryClass,
                     text: tag,
                     value: tag
                 }).appendTo(tagListSpan);

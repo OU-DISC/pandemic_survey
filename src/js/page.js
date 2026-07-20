@@ -77,6 +77,7 @@ const page = (function () {
             "tooltipster/tooltipster.css",
             "tooltipster/tooltipster-survis.css",
             "style.css",
+            "tag_categories.css",
             "selector.css",
             "sparkline.css",
             "timeline.css",

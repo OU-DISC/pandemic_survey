@@ -1,0 +1,66 @@
+﻿Source,Target,Joint papers,Source papers,Target papers,Group
+Min Chen,Cagatay Turkay,8,10,9,Min Chen / Cagatay Turkay
+Alfie Abdul-Rahman,Min Chen,6,7,10,Min Chen / Cagatay Turkay
+Alfie Abdul-Rahman,Euan Freeman,6,7,6,Min Chen / Cagatay Turkay
+Alfie Abdul-Rahman,Cagatay Turkay,6,7,9,Min Chen / Cagatay Turkay
+Min Chen,Euan Freeman,6,10,6,Min Chen / Cagatay Turkay
+Euan Freeman,Cagatay Turkay,6,6,9,Min Chen / Cagatay Turkay
+Enrico Bertini,Lace Padilla,5,6,5,Enrico Bertini / Lace Padilla
+Min Chen,Saiful Khan,5,10,5,Min Chen / Cagatay Turkay
+Samah W. Al-Jabi,Sa'ed H. Zyoud,4,5,5,Sa'ed H. Zyoud / Samah W. Al-Jabi
+Min Chen,Hui Fang,4,10,4,Min Chen / Cagatay Turkay
+Hui Fang,Cagatay Turkay,4,4,9,Min Chen / Cagatay Turkay
+Enrico Bertini,Racquel Fygenson,4,6,4,Enrico Bertini / Lace Padilla
+Racquel Fygenson,Lace Padilla,4,4,5,Enrico Bertini / Lace Padilla
+Alfie Abdul-Rahman,Saiful Khan,4,7,5,Min Chen / Cagatay Turkay
+Euan Freeman,Saiful Khan,4,6,5,Min Chen / Cagatay Turkay
+Saiful Khan,Cagatay Turkay,4,5,9,Min Chen / Cagatay Turkay
+Samah W. Al-Jabi,Amer Koni,3,5,3,Sa'ed H. Zyoud / Samah W. Al-Jabi
+Samah W. Al-Jabi,Muna Shakhshir,3,5,3,Sa'ed H. Zyoud / Samah W. Al-Jabi
+Amer Koni,Muna Shakhshir,3,3,3,Sa'ed H. Zyoud / Samah W. Al-Jabi
+Amer Koni,Sa'ed H. Zyoud,3,3,5,Sa'ed H. Zyoud / Samah W. Al-Jabi
+Muna Shakhshir,Sa'ed H. Zyoud,3,3,5,Sa'ed H. Zyoud / Samah W. Al-Jabi
+Quanjun Chen,Zipei Fan,3,3,3,Chuang Yang / Quanjun Chen
+Quanjun Chen,Renhe Jiang,3,3,3,Chuang Yang / Quanjun Chen
+Quanjun Chen,Ryosuke Shibasaki,3,3,3,Chuang Yang / Quanjun Chen
+Quanjun Chen,Xuan Song,3,3,3,Chuang Yang / Quanjun Chen
+Quanjun Chen,Chuang Yang,3,3,3,Chuang Yang / Quanjun Chen
+Quanjun Chen,Zhiwen Zhang,3,3,3,Chuang Yang / Quanjun Chen
+Zipei Fan,Renhe Jiang,3,3,3,Chuang Yang / Quanjun Chen
+Zipei Fan,Ryosuke Shibasaki,3,3,3,Chuang Yang / Quanjun Chen
+Zipei Fan,Xuan Song,3,3,3,Chuang Yang / Quanjun Chen
+Zipei Fan,Chuang Yang,3,3,3,Chuang Yang / Quanjun Chen
+Zipei Fan,Zhiwen Zhang,3,3,3,Chuang Yang / Quanjun Chen
+Renhe Jiang,Ryosuke Shibasaki,3,3,3,Chuang Yang / Quanjun Chen
+Renhe Jiang,Xuan Song,3,3,3,Chuang Yang / Quanjun Chen
+Renhe Jiang,Chuang Yang,3,3,3,Chuang Yang / Quanjun Chen
+Renhe Jiang,Zhiwen Zhang,3,3,3,Chuang Yang / Quanjun Chen
+Ryosuke Shibasaki,Xuan Song,3,3,3,Chuang Yang / Quanjun Chen
+Ryosuke Shibasaki,Chuang Yang,3,3,3,Chuang Yang / Quanjun Chen
+Ryosuke Shibasaki,Zhiwen Zhang,3,3,3,Chuang Yang / Quanjun Chen
+Xuan Song,Chuang Yang,3,3,3,Chuang Yang / Quanjun Chen
+Xuan Song,Zhiwen Zhang,3,3,3,Chuang Yang / Quanjun Chen
+Chuang Yang,Zhiwen Zhang,3,3,3,Chuang Yang / Quanjun Chen
+Enrico Bertini,Spencer C. Castro,3,6,3,Enrico Bertini / Lace Padilla
+Spencer C. Castro,Racquel Fygenson,3,3,4,Enrico Bertini / Lace Padilla
+Spencer C. Castro,Lace Padilla,3,3,5,Enrico Bertini / Lace Padilla
+Benjamin Bach,Min Chen,3,3,10,Min Chen / Cagatay Turkay
+Benjamin Bach,Saiful Khan,3,3,5,Min Chen / Cagatay Turkay
+Andrea G. Parker,Yifan Sun,3,3,3,Enrico Bertini / Lace Padilla
+Andrea G. Parker,Yixuan Zhang,3,3,5,Enrico Bertini / Lace Padilla
+Yifan Sun,Yixuan Zhang,3,3,5,Enrico Bertini / Lace Padilla
+Rita Borgo,Min Chen,2,3,10,Min Chen / Cagatay Turkay
+Rita Borgo,Hui Fang,2,3,4,Min Chen / Cagatay Turkay
+Rita Borgo,Cagatay Turkay,2,3,9,Min Chen / Cagatay Turkay
+Alfie Abdul-Rahman,Benjamin Bach,2,7,3,Min Chen / Cagatay Turkay
+Benjamin Bach,Euan Freeman,2,3,6,Min Chen / Cagatay Turkay
+Benjamin Bach,Cagatay Turkay,2,3,9,Min Chen / Cagatay Turkay
+Alfie Abdul-Rahman,Hui Fang,2,7,4,Min Chen / Cagatay Turkay
+Hui Fang,Euan Freeman,2,4,6,Min Chen / Cagatay Turkay
+Alfie Abdul-Rahman,Rita Borgo,1,7,3,Min Chen / Cagatay Turkay
+Enrico Bertini,Andrea G. Parker,1,6,3,Enrico Bertini / Lace Padilla
+Enrico Bertini,Yifan Sun,1,6,3,Enrico Bertini / Lace Padilla
+Enrico Bertini,Yixuan Zhang,1,6,5,Enrico Bertini / Lace Padilla
+Lace Padilla,Andrea G. Parker,1,5,3,Enrico Bertini / Lace Padilla
+Lace Padilla,Yifan Sun,1,5,3,Enrico Bertini / Lace Padilla
+Lace Padilla,Yixuan Zhang,1,5,5,Enrico Bertini / Lace Padilla

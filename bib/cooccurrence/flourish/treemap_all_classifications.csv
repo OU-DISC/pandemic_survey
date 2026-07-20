@@ -1,0 +1,82 @@
+Category,Code,Number of Papers
+Advanced algorithms,yes,109
+Advanced algorithms,no,42
+Data size,author large,60
+Data size,estimated large,53
+Data size,author small,29
+Data size,estimated small,9
+Data type,tabular,73
+Data type,timeseries,57
+Data type,spatiotemporal,35
+Data type,geospatial,29
+Data type,textual,23
+Data type,network,12
+Data type,document,11
+Data type,imagery,9
+Data type,event,5
+Data type,volume,3
+Data type,video,2
+Engagement,yes,105
+Engagement,no,46
+Interaction,basic,70
+Interaction,medium,44
+Interaction,advanced,28
+Interaction,static,5
+Interaction,immersive,1
+Other flags,pandemic data,90
+Other flags,domain specific,23
+Search themes,visualization,336
+Search themes,pandemic,287
+Search themes,healthcare,101
+Search themes,epidemiological modeling,49
+Search themes,emergency response,45
+Task,visualize,39
+Task,analyze,29
+Task,model,21
+Task,understand,8
+Task,other,2
+Tools,toolkits,109
+Tools,web app,52
+Tools,software,27
+Tools,immersive app,2
+Tools,mobile app,2
+Users,domain experts,120
+Users,policymakers,80
+Users,public,78
+Users,public health,39
+Users,researchers,32
+Users,epidemiologists,28
+Users,data scientists,22
+Users,healthcare experts,15
+Users,educators,6
+Users,sociological,4
+Users,students,4
+Users,artists,1
+Users,business analysts,1
+Users,economists,1
+Users,musicians,1
+Visual representations,map,127
+Visual representations,line,125
+Visual representations,bar,85
+Visual representations,network,28
+Visual representations,dashboard,26
+Visual representations,scatter,25
+Visual representations,heatmap,23
+Visual representations,area,17
+Visual representations,boxplot,15
+Visual representations,pie,15
+Visual representations,table,14
+Visual representations,wordcloud,10
+Visual representations,bubble,6
+Visual representations,forest,6
+Visual representations,image,5
+Visual representations,violin,5
+Visual representations,3d,4
+Visual representations,dot,3
+Visual representations,histogram,3
+Visual representations,animation,2
+Visual representations,treemap,2
+Visualization level,analytical,62
+Visualization level,observational,29
+Visualization level,model developmental,27
+Visualization level,disseminative,19

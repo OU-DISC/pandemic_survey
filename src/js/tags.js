@@ -122,8 +122,9 @@ const tags = (function () {
             return;
         }
         var frequencyClass = tagUtil.getFrequencyClass(frequency);
+        var categoryClass = options.field === 'keywords' ? tagUtil.getCategoryClass(tag) : '';
         var tagDiv = $('<div>', {
-            class: 'tag ' + frequencyClass,
+            class: ('tag ' + frequencyClass + (categoryClass ? ' ' + categoryClass : '')).trim(),
             value: frequency
         });
         $('<span>', {
@@ -199,8 +200,9 @@ const tags = (function () {
             class: 'tag_category'
         }).appendTo(element);
         if (name) {
+            var catClass = tagUtil.getCategoryClass(name.indexOf(':') >= 0 ? name : name + ':');
             var labelDiv = $('<span>', {
-                class: 'label tooltip',
+                class: 'label tooltip ' + catClass,
                 title: title,
                 text: name + ": "
             }).appendTo(categoryDiv);
@@ -282,11 +284,53 @@ const tags = (function () {
             uiUtil.toggleControl(h2Div);
         });
 
+        if (options.field === 'keywords') {
+            appendKeywordCategoryLegend(tagCloudDiv);
+        }
+
         tagCloudDiv.append($('<div>', {
             class: 'tags-container toggle-container'
         }));
 
         return tagCloudDiv;
+    }
+
+    function appendKeywordCategoryLegend(tagCloudDiv) {
+        var items = [
+            { cls: 'tag_cat_theme', label: 'themes' },
+            { cls: 'tag_cat_data', label: 'data' },
+            { cls: 'tag_cat_size', label: 'size' },
+            { cls: 'tag_cat_visual', label: 'visual' },
+            { cls: 'tag_cat_user', label: 'user' },
+            { cls: 'tag_cat_interaction', label: 'interaction' },
+            { cls: 'tag_cat_tool', label: 'tool' },
+            { cls: 'tag_cat_level', label: 'level' },
+            { cls: 'tag_cat_task', label: 'task' },
+            { cls: 'tag_cat_advanced_algorithms', label: 'algorithms' },
+            { cls: 'tag_cat_engagement', label: 'engagement' }
+        ];
+        var legend = $('<div>', {
+            class: 'keyword-category-legend toggle-container',
+            title: 'Keyword tag colors by coding category (separate from selector colors)'
+        });
+        $('<span>', {
+            class: 'legend-title',
+            text: 'Categories'
+        }).appendTo(legend);
+        $.each(items, function (i, item) {
+            var chip = $('<span>', {
+                class: 'legend-chip ' + item.cls
+            });
+            $('<span>', {
+                class: 'swatch'
+            }).appendTo(chip);
+            $('<span>', {
+                class: 'legend-label',
+                text: item.label
+            }).appendTo(chip);
+            chip.appendTo(legend);
+        });
+        legend.appendTo(tagCloudDiv);
     }
 
     function filterTags(tagCloudDiv) {

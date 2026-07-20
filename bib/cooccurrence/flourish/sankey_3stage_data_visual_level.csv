@@ -1,0 +1,49 @@
+Data,Visualization,Level,Number of Papers
+Time-Series,Line Charts,Analytical,8
+Spatiotemporal,Maps,Analytical,7
+Spatiotemporal,Line Charts,Analytical,5
+Time-Series,Maps,Observational,5
+Geospatial,Maps,Analytical,3
+Network,Maps,Model-developmental,3
+Spatiotemporal,Bar Charts,Analytical,3
+Spatiotemporal,Maps,Model-developmental,3
+Time-Series,Bar Charts,Observational,3
+Time-Series,Line Charts,Observational,3
+Event,Line Charts,Analytical,2
+Event,Maps,Analytical,2
+Geospatial,Heatmaps,Analytical,2
+Network,Maps,Analytical,2
+Spatiotemporal,Bar Charts,Model-developmental,2
+Spatiotemporal,Heatmaps,Analytical,2
+Spatiotemporal,Line Charts,Model-developmental,2
+Tabular,Bar Charts,Disseminative,2
+Tabular,Bar Charts,Model-developmental,2
+Tabular,Dashboards,Analytical,2
+Tabular,Line Charts,Analytical,2
+Tabular,Line Charts,Disseminative,2
+Tabular,Line Charts,Model-developmental,2
+Tabular,Maps,Analytical,2
+Tabular,Maps,Disseminative,2
+Tabular,Maps,Model-developmental,2
+Textual,Maps,Disseminative,2
+Time-Series,Bar Charts,Analytical,2
+Time-Series,Dashboards,Analytical,2
+Time-Series,Maps,Model-developmental,2
+Geospatial,Bar Charts,Analytical,1
+Geospatial,Bar Charts,Observational,1
+Geospatial,Dashboards,Observational,1
+Geospatial,Line Charts,Observational,1
+Geospatial,Maps,Model-developmental,1
+Geospatial,Maps,Observational,1
+Imagery,Maps,Analytical,1
+Network,Line Charts,Disseminative,1
+Network,Line Charts,Model-developmental,1
+Network,Network Diagrams,Analytical,1
+Network,Network Diagrams,Model-developmental,1
+Tabular,Bar Charts,Observational,1
+Tabular,Dashboards,Observational,1
+Tabular,Line Charts,Observational,1
+Tabular,Maps,Observational,1
+Textual,Bar Charts,Analytical,1
+Time-Series,Dashboards,Observational,1
+Time-Series,Maps,Disseminative,1
