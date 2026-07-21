@@ -48,8 +48,6 @@ jobs:
   deployment:
     needs:
       - build-frontend-image
-      - build-forecast-api-image
-      - build-env-api-image
     runs-on: 'ubuntu-latest'
     timeout-minutes: 40
     steps:
