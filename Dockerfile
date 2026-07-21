@@ -1,0 +1,7 @@
+FROM public.ecr.aws/docker/library/nginx:1.27-alpine
+
+COPY /src /usr/share/nginx/html
+
+EXPOSE 80
+
+CMD ["nginx", "-g", "daemon off;"]
