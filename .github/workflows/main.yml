@@ -2,9 +2,9 @@ name: Build and Deploy Pandemic Survey Stack
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "main" ]
 
 jobs:
 
