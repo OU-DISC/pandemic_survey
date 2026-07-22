@@ -75,7 +75,7 @@ jobs:
       env:
         KUBECONFIG_CONTENT: '${{ secrets.KUBECONFIG }}'
 
-    - uses: helmfile/helmfile-action@v2.4.0
+    - uses: helmfile/helmfile-action@v2.4.7
       with:
         helm-plugins: >
           https://github.com/databus23/helm-diff,
